@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\OnClick\PositionChanger.cs" />
     <Compile Include="Assets\Scripts\OnClick\Rotate.cs" />
     <Compile Include="Assets\Scripts\Rotator.cs" />
+    <None Include="Assets\Naboo fighter\Images\Naboo-N1.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Jozef/Documents/Projects/FEI_MTMP_UNITY_zadanie2/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

@@ -24,12 +24,12 @@ public class PositionChanger : MonoBehaviour {
         r = platform.GetComponent<Rotator>();
         cm = camera.GetComponent<CameraMover>();
 
-
+        //default
         positions[0] = new Vector3(0.0f, 1.5f, -10.0f);
         rotations[0] = Quaternion.Euler(0.0f, 0.0f, 0.0f);
-
-        positions[1] = new Vector3(1.8f,0.48f,-0.05f);
-        rotations[1] = Quaternion.Euler(0.0f,-90.0f,0.0f);
+        //engine
+        positions[1] = new Vector3(3.014f, 0.4800012f, 0.742f);
+        rotations[1] = Quaternion.Euler(0.0f, -138.865f, 0.0f);
     }
 
     // Update is called once per frame
